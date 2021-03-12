@@ -1,9 +1,12 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import SnackDept from './container/SnackDept';
 
 function App() {
   return (
+    
     <div className="App">
+      <SnackDept/>
     </div>
   );
 }

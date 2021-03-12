@@ -9,7 +9,7 @@ const initState = {
 }
 
 const snacksReducer = (state = initState, action) => {
-
+    console.log(state)
     return state
 }
 
